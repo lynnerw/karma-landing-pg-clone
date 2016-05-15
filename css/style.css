@@ -48,9 +48,10 @@ body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
-div {
-    border: 1px solid rgba(112, 28, 0, 1);
-}
+/** div {
+    border: 1px solid rgba(255, 146, 92, 1);
+}  **/
+
 .content {
     padding: 0 1rem;
     margin: 0 auto;
@@ -59,6 +60,7 @@ div {
   height: 4rem;
   padding: 0 3.5rem;
 }
+
 button {
     width: 9.688rem;
     background-color: rgba(241, 90, 41, 1);
@@ -74,7 +76,7 @@ button {
 
 /** navigation **/
 .top-nav {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(222, 224, 227, 1);
     height: 4rem;
     width: 100%;
     border-bottom: 1px solid rgba(221, 221, 221, 1);
@@ -84,7 +86,7 @@ button {
     float: right;
     display: inline-block;
     margin: 1.5rem;
-    color: rgba(131, 137, 148, 1);
+    color: rgba(47, 50, 55, 1);
     font-size: 1.25rem;
 }
 .top-nav .links li.active {
@@ -98,7 +100,7 @@ button {
 /** end nav **/
 /** intro section **/
 .intro {
-   height: 500px;
+   height: 425px;
    background-image: url('../images/karma-intro-background.jpg');
    background-size: cover;
    background-repeat: no-repeat;
@@ -131,3 +133,17 @@ button {
 }
 /** end intro section **/
 /** begin icon section **/
+.icons {
+  height: 70%;
+  width: 100%;
+}
+.icon-display > li {
+    width: 30%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0.85rem;
+    color: rgba(47, 50, 55, 1);
+    font-size: 1.45rem;
+    text-align: center;
+
+}
