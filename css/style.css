@@ -34,44 +34,70 @@ ol, ul {
 }
 /**
  * End of Reset
-/*karma project css*/
+ */
+
+/** start of karma styles **/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
-    background-color: LightGray;
+    background-color: rgba(207, 207, 207, 1);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #838994;
-    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
 }
 div {
-    border: 1px solid Chocolate;
+    border: 1px solid rgba(133, 70, 46, 1);
 }
 .content {
-    padding: 0 0.938rem;
+    padding: 0px 15px;
     margin: 0 auto;
-    min-width: 37.5rem;
 }
-.top-nav {
-   background-color: #fff;
-   position: fixed;
-   width: 100%;
-   border-bottom: 1px solid #DDD;
-   z-index: 9999;
-
-}
-.top-nav > .content {
-    height: 4.375rem;
-}
-.top-nav .logo {
+.logo {
   height: 4.375rem;
 }
-.top-nav .links {
-    color: #838994;
-    font-size: 1.04rem;
-    margin-top: 1.7rem;
-      display: inline-block;
-      float: right;
+/** navigation **/
+
+.top-nav {
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
 }
-.top-nav > .links li {
-  display: inline-block;
-  margin-left: 1.563rem;
+.top-nav > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
+.top-nav  {
+    height: 4.375rem;
+}
+.top-nav .links {
+    float: right;
+    color: rgba(131, 137, 148, 1);
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+.top-nav .links li {
+    display: inline-block;
+    margin-left: 1.5em;
+}
+.top-nav .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-nav .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+/** end nav **/
+/** intro section **/
+.intro {
+   background-image: url('../images/karma-intro-background.jpg');
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
