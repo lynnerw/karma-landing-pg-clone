@@ -48,12 +48,12 @@ html {
 } **/
 
 body {
-    background-color: rgba(207, 207, 207, 1);
+    background-color: rgba(252, 252, 252, 1);
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 .content {
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     margin: 0 auto;
 }
 .logo {
@@ -67,7 +67,7 @@ button {
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     margin: .5em 0;
     color: rgba(255, 255, 255, 1);
     font-size: 1.3rem;
@@ -76,7 +76,7 @@ button {
 
 /** navigation **/
 .top-nav {
-    background-color: rgba(222, 224, 227, 1);
+    background-color: rgba(252, 252, 252, 1);
     height: 4.3rem;
     width: 100%;
     border-bottom: 2px solid rgba(221, 221, 221, 1);
@@ -126,7 +126,7 @@ button {
   float: left;
   padding-top: 6rem;
   padding-left: 10rem;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(254, 254, 254, 1);
 }
 .intro h1 {
   font-size: 3rem;
@@ -148,15 +148,16 @@ button {
 /** end intro section **/
 /** begin icon section **/
 .icons {
-  height: 30%;
-  padding: 0.7rem 0rem;
+  height: 375px;
+  padding: 1.5rem 1rem;
   width: 100%;
+  background-color: rgba(253, 253, 253, 1);
 }
 .icon-display > li {
     width: 33%;
     display: inline-block;
     margin: 0 auto;
-    padding: 0.90rem;
+    padding: 2.5rem;
     color: rgba(47, 50, 55, 1);
     font-size: 1.45rem;
     text-align: center;
@@ -168,6 +169,7 @@ button {
   width: 100%;
   padding: 0.75rem;
   background-color: rgba(89, 89, 89, 1);
+  border-top: 2px solid rgba(221, 221, 221, 1);
   color: rgba(255, 255, 255, 1);
   font-size: 1rem;
   text-align: center;
