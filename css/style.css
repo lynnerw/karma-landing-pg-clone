@@ -77,21 +77,23 @@ button {
     width: 100%;
     border-bottom: 1px solid rgba(221, 221, 221, 1);
 }
-
+.top-nav .links {
+      float: right;
+      transition: color 2s ease-out;
+}
 .top-nav .links li {
-    float: right;
     display: inline-block;
     margin: 1.5rem;
     color: rgba(47, 50, 55, 1);
     font-size: 1.25rem;
-}
+  }
 .top-nav .links li.active {
     color: rgba(76, 80, 88, 1);
     font-weight: 500;
 }
 .top-nav .links li:hover {
     cursor: pointer;
-    color: rgba(51, 51, 51, 1);
+    color: rgba(255, 0, 55, 1);
 }
 /** end nav **/
 /** intro section **/
