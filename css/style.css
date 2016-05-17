@@ -43,9 +43,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-div {
+/* div {
   border: 1px solid red;
-}
+} **/
+
 body {
     background-color: rgba(207, 207, 207, 1);
     font-family: 'Roboto', sans-serif;
