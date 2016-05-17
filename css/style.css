@@ -43,6 +43,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+div {
+  border: 1px solid red;
+}
 body {
     background-color: rgba(207, 207, 207, 1);
     font-family: 'Roboto', sans-serif;
@@ -73,28 +76,40 @@ button {
 /** navigation **/
 .top-nav {
     background-color: rgba(222, 224, 227, 1);
-    height: 75px;
+    height: 4.3rem;
     width: 100%;
-    border-bottom: 1px solid rgba(221, 221, 221, 1);
+    border-bottom: 2px solid rgba(221, 221, 221, 1);
 }
 .top-nav .links {
-      float: right;
-      transition: color 2s ease-out;
+    float: right;
+    color: rgba(47, 50, 55, 1);
+    font-size: 1.25rem;
+    text-decoration: none;
 }
 .top-nav .links li {
     display: inline-block;
     margin: 1.5rem;
+  }
+.top-nav .links li a {
     color: rgba(47, 50, 55, 1);
     font-size: 1.25rem;
-  }
+    text-decoration: none;
+}
+.top-nav .links li a:visited {
+    color: (255, 255, 255, 1);
+    text-decoration: none;
+}
+.top-nav .links li a:hover {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: underline;
+}
 .top-nav .links li.active {
     color: rgba(76, 80, 88, 1);
     font-weight: 500;
 }
-.top-nav .links li:hover {
-    cursor: pointer;
-    color: rgba(255, 0, 55, 1);
-}
+
 /** end nav **/
 /** intro section **/
 .intro {
